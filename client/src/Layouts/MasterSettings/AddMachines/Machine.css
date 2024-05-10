@@ -1,0 +1,42 @@
+.machine{
+  padding: 20px 50px;
+}
+.machine-head{
+  padding: 10px 0px;
+}
+.add-text{
+  padding: 10px 0px;
+}
+.add-machines{
+  width: 80%;
+}
+
+.description-text{
+  margin: 20px 0px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+.description-text:focus{
+  outline: none;
+}
+
+.submit-buttons{
+  padding: 10px 0px 0px 0px;
+  display: flex;
+}
+.machine-text{
+  padding: 7px 10px;
+  background-color: orangered;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: small;
+}
+.clear-text{
+  padding: 7px 10px;
+  color: orangered;
+  cursor: pointer;
+  font-size: small;
+}

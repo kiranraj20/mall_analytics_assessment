@@ -1,0 +1,54 @@
+.sidebar{
+  width: 18vw;
+  padding: 10px 0px;
+  border-right: 1px solid lightslategray;
+  height: 100vh;
+}
+.logo{
+  margin: 10px;
+  padding: 5px 20px;
+  border: 1px solid orangered;
+  border-radius: 4px;
+  width: 50%;
+}
+.access-bar-text{
+  margin: 0;
+  padding: 0px 10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: lightslategray;
+  font-size: small;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.dashboard,.analytics,.asset,.user,.master,.logout{
+  display: flex;
+  align-items: center;
+  font-size: small;
+  margin: 0px;
+  padding: 10px;
+  cursor: pointer;
+}
+.dashboard:hover,.analytics:hover,.asset:hover,.user:hover,.master:hover,.logout:hover{
+  background-color: rgb(255, 230, 214);
+}
+.dashboard-text,.analytics-text,.asset-text,.user-text,.master-text,.logout-text{
+  margin: 0;
+  padding: 0px 0px 0px 20px;
+}
+.option-clicked{
+  background-color: rgb(255, 230, 214);
+}
+.body{
+  width: 82vw;
+  height: 100vh;
+  overflow-y: scroll;
+}

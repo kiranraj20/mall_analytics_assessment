@@ -1,0 +1,67 @@
+.master-bar{
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.master-profile{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.master-profile-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  border: 1px solid lightslategray;
+  background-color: lightslategray;
+  color: white;
+  font-size: x-small;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.master-profile-text{
+  padding-right: 40px;
+}
+.master-bell-icon{
+  color: darkslategray;
+}
+
+
+.master-settings{
+  padding: 20px 30px;
+}
+.settings-path{
+  padding: 0;margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: lightslategray;
+}
+
+.master-menu{
+  display: flex;
+  align-items: center;
+  padding: 0px 40px;
+}
+.threshold,.machines,.billing{
+  padding: 10px;
+  display: flex;
+  color: lightslategray;
+  font-size: small;
+}
+.threshold-text,.machines-text,.billing-text{
+  margin: 0;padding: 0;
+  padding-left: 10px;
+}
+.threshold:hover,.machines:hover,.billing:hover{
+  color: darkslategray;
+  cursor: pointer;
+  border-bottom: 1px solid darkslategray;
+}
+.menu-clicked{
+  color: orangered;
+  border-bottom: 2px solid orangered;
+}
