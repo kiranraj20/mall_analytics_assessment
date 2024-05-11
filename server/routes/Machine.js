@@ -1,8 +1,8 @@
 import express from 'express'
-import MachineController from '../controllers/MachineAuth.js'
+import {createMachine} from '../controllers/MachineAuth.js'
 
 const router = express.Router();
 
-router.post('/', MachineController.createMachine);
+router.post('/', createMachine);
 
 export default router;

@@ -1,0 +1,53 @@
+.dashboard-body{
+  width: 100%;
+  padding: 20px 0px 0px 50px;
+}
+.dashboard-path{
+  font-size: small;
+  color: lightslategray;
+}
+.dashboard-filter{
+  display: flex;
+  font-size: small;
+  align-items: center;
+}
+.toggle {
+  margin: 10px;
+  position : relative ;
+  display : inline-block;
+  width : 40px;
+  height : 15px;
+  background-color: lightslategray;
+  border-radius: 30px;
+  border: 5px transparent;
+  cursor: pointer;
+}
+     
+/* After slide changes */
+.toggle:after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: orangered;
+  top: -3px; 
+  left: -1px;
+  transition:  all 0.5s;
+}
+/* Checkbox checked effect */
+.checkbox:checked + .toggle::after {
+  left : 20px; 
+  top: -3px;
+}
+     
+/* Checkbox vanished */
+.checkbox { 
+  display : none;
+}
+
+
+.dashboard-cards{
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,18 @@
+.submit-buttons{
+  padding: 10px 0px 0px 0px;
+  display: flex;
+}
+.machine-text{
+  padding: 7px 10px;
+  background-color: orangered;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: small;
+}
+.clear-text{
+  padding: 7px 10px;
+  color: orangered;
+  cursor: pointer;
+  font-size: small;
+}

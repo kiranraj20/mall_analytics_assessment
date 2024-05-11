@@ -1,0 +1,88 @@
+.dashboard-card{
+  margin: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  width: 250px;
+  height: 180px;
+  border-radius: 5px;
+}
+.card-head{
+  padding: 0px 10px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: small;
+}
+.star{
+  color: orangered;
+  font-size: medium;
+}
+
+.card-body{
+  padding: 0px 10px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+.card-logo{
+  width: 80px;
+  height: 80px;
+}
+.card-icon{
+  width: 100%;
+  height: 100%;
+}
+.des{
+  font-size:x-small;
+}
+
+.card-menu{
+  padding: 0px 10px;
+  height: 30px;
+  display: flex;
+  font-size: x-small;
+  color: orangered;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-overview,.card-report{
+  padding: 3px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.card-overview:hover,.card-report:hover{
+  background-color: rgb(255, 230, 214);
+}
+
+.card-status{
+  padding: 0px 10px;
+  height: 30px;
+  display: flex;
+  font-size: x-small;
+  justify-content: start;
+  align-items:center;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.circle{
+  margin: 0px 10px;
+  padding: 5px;
+  border-radius: 50px;
+  border: 2px solid orangered;
+}
+.Optional{
+  background-color: white;
+}
+.Moderate{
+  background-color: lightgray;
+}
+.Critical{
+  background-color: orangered;
+  color: white;
+}
+.white{
+  border: 2px solid white;
+  background-color: white;
+}

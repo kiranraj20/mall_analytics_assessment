@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import './Machine.css';
 import Dropdowns from '../../../Components/Dropdowns/Dropdowns';
 import UniqueKey from '../../../Components/UniqueKey/UniqueKey';
-import MachineAPI from '../../../api/MachineAPI.js'
+import {MachineAPICreate, MachineAPIGet} from '../../../api/MachineAPI.js'
 
 const Machine = () => {
 
@@ -49,7 +49,9 @@ const Machine = () => {
     if (Data.place === '' || Data.uniqueKey === '' ||Data.configuration === '' ||Data.size === '' ||Data.type === '' ) {
       alert('Values cannot be empty')
     }else{
-      MachineAPI(Data) 
+      // MachineAPI({Data}) 
+      MachineAPICreate({Data})
+      // MachineAPIGet()
     }
   }
 
